@@ -1,0 +1,23 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+    <ImageView
+        android:id="@+id/cardPlaceholder"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_person"
+        android:contentDescription="@string/placeholder_description" />
+
+    <ImageView
+        android:id="@+id/cardPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/employee_photo_description" />
+
+</FrameLayout>

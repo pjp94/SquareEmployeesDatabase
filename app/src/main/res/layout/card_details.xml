@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cardName"
+        app:drawableLeftCompat="@drawable/ic_person_black"
+        style="@style/CardInfo"
+        tools:text="Justine Mason" />
+
+    <TextView
+        android:id="@+id/cardTeam"
+        app:drawableLeftCompat="@drawable/ic_group_work"
+        style="@style/CardInfo"
+        tools:text="Point of Sale" />
+
+    <TextView
+        android:id="@+id/cardEmail"
+        app:drawableLeftCompat="@drawable/ic_email"
+        style="@style/CardInfo"
+        tools:text="jmason.demo@squareup.com" />
+
+    <TextView
+        android:id="@+id/cardNumber"
+        android:visibility="gone"
+        app:drawableLeftCompat="@drawable/ic_phone"
+        style="@style/CardInfo"
+        tools:text="(555) 332-5233" />
+
+</LinearLayout>

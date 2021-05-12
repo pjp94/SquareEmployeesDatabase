@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Square Employees</string>
+
+    <!-- Directory -->
+    <string name="fetching_employees">Fetching Employees…</string>
+    <string name="fetch_error">Employees added to the directory will appear here.</string>
+
+    <!-- Content descriptors -->
+    <string name="employee_photo_description">Employee photo.</string>
+    <string name="placeholder_description">Employee photo placeholder.</string>
+</resources>
